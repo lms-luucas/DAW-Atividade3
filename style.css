@@ -1,0 +1,53 @@
+body {
+    overflow: hidden;
+}
+
+#form {
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 1px;
+    padding: 25px;
+    margin: 20px;
+}
+
+#form h4 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#form input {
+    margin-bottom: 15px;
+}
+
+#form #buttons {
+    text-align: center;
+    padding: 15px;
+}
+
+#form #buttons button {
+    margin: 0px 20px 0 20px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.container-fluid {
+    height: 75%;
+}
+
+.container-fluid #table .contant {
+    overflow: auto;
+    max-height: 75%;
+    max-width: 100%;
+    margin: 20px 25px 25px 45px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px 1px;
+}
+
+.container-fluid #table .contant #filtro{
+    margin-bottom: 20px;
+}
+
+.container-fluid #table .contant :-webkit-scrollbar {
+    width: 5px
+} 
